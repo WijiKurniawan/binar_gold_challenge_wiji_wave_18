@@ -16,6 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 16px;
 }
 
 .header-logo {
@@ -30,6 +31,18 @@ body {
   list-style: none;
   font-size: 14px;
   font-weight: 400;
+}
+
+.header-navlink ul,
+li > a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.header-navlink ul,
+li > a:hover {
+  color: #0d28a6;
 }
 
 .hero-banner {
@@ -62,11 +75,65 @@ body {
 }
 
 .hero-banner-button {
-  padding: 8px, 12px, 8px, 12px;
   background-color: #5cb85f;
   color: #ffffff;
   width: 140px;
   height: 36px;
   border-radius: 2px;
   border: none;
+  margin-bottom: 2rem;
+}
+
+.hero-banner-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 52px;
+}
+
+.section-services {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5rem;
+  padding-inline-start: 4rem;
+  padding-inline-end: 4rem;
+  padding-top: 5rem;
+}
+
+.section-service-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.section-service-list {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.section-service-paragraph {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.section-service-list {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  list-style: none;
+  gap: 8px;
+  padding: 0;
+}
+
+.section-list-style {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.section-list-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
 }
