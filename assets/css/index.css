@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.container {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.header-banner {
+  background-color: #f1f3ff;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: 100px;
+  height: 34px;
+  background-color: #0d28a6;
+}
+
+.header-navlink {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.hero-banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* position: relative; */
+  /* align-items: center; */
+  margin-top: 2rem;
+}
+
+.hero-banner-car-grid {
+  width: 704px;
+  height: 407px;
+}
+.hero-banner-car {
+  position: absolute;
+  right: 0;
+}
+
+.hero-banner-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.hero-banner-text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.hero-banner-button {
+  padding: 8px, 12px, 8px, 12px;
+  background-color: #5cb85f;
+  color: #ffffff;
+  width: 140px;
+  height: 36px;
+  border-radius: 2px;
+  border: none;
+}
